@@ -37,6 +37,7 @@ pipeline {
         stage('Output'){
                 steps{
                         sh 'terraform output'
+		}
         }
     }
 }
